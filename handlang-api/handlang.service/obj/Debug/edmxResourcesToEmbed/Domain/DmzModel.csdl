@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DmzModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="SysCodeTable">
+    <Key>
+      <PropertyRef Name="CodeType" />
+      <PropertyRef Name="CodeId" />
+      <PropertyRef Name="DtEffect" />
+    </Key>
+    <Property Name="CodeType" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CodeId" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DtEffect" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CodeName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CodeDesc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Seq" Type="Int32" />
+    <Property Name="IntVal" Type="Int32" />
+    <Property Name="StrVal" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsValid" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SysLog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Sender" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ReferenceId" Type="Guid" />
+    <Property Name="Code" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Message" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Level" Type="Int32" Nullable="false" />
+    <Property Name="RawData" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LogTime" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="DmzModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="SysCodeTable" EntityType="Self.SysCodeTable" />
+    <EntitySet Name="SysLog" EntityType="Self.SysLog" />
+  </EntityContainer>
+</Schema>

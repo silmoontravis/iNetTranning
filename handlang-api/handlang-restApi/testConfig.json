@@ -1,0 +1,295 @@
+{
+  "isSuccess": true,
+  "message": "",
+  "data": {
+    "id": "193797d1-5afa-419a-8713-240d4eaacec1",
+    "code": "7510",
+    "name": "北部地區機動站",
+    "manager": null,
+    "monitor": [],
+    "locker": [
+      {
+        "port": "0D",
+        "type": 2,
+        "isStarter": true,
+        "user": [],
+        "id": "9e990faf-4c6b-4c90-b2d9-db5996c3f015",
+        "code": "13",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "0F",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "5d709b5c-ac33-42f0-b471-c4763fb190c8",
+        "code": "14",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "0E",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "e2a18ed1-9e47-4d41-b485-4eb7ecf37478",
+        "code": "15",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "10",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "ac28fc5f-be10-45a6-8f29-cd2979f868e4",
+        "code": "16",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "01",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "1921aea4-9dd8-431c-9f4b-7d5d2a770c61",
+        "code": "01",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "02",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "ed70b492-8de3-4914-8618-821810db7519",
+        "code": "02",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "03",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "751d35cd-a1aa-4c6e-88cd-e963b47e88f6",
+        "code": "03",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "04",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "954eea3e-53ae-4a9d-85a3-6f08f46a628c",
+        "code": "04",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "05",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "664e296c-986c-4be8-b036-f0917e6d51c9",
+        "code": "05",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "06",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "d3acf6e9-14a9-451a-a2ff-566dbb71f248",
+        "code": "06",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "07",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "5f94f6d1-6cbd-4dfb-92dc-630dce848ce6",
+        "code": "07",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "08",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "d406360b-dde0-43dc-b437-63de83032dd0",
+        "code": "08",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "09",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "1afbfde1-934e-49bd-9d90-1152da9c7588",
+        "code": "09",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "0A",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "0636c886-83db-4777-b43a-8379bbd116f3",
+        "code": "10",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "0B",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "d7dc1732-bbed-407e-98ed-d04ec1145e21",
+        "code": "11",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": "0C",
+        "type": 2,
+        "isStarter": false,
+        "user": [],
+        "id": "008d8353-b3f1-4b6c-bd05-e80f95776394",
+        "code": "12",
+        "ip": null,
+        "remark": "智能櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "rfid": [
+      {
+        "topic": null,
+        "id": "db07a2e6-fdb4-4ab6-b5bb-1bb8159e7cc9",
+        "code": null,
+        "ip": "192.168.72.112",
+        "remark": "力十",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "nec": [
+      {
+        "type": 1,
+        "id": "9181cc9b-eced-453a-ba9a-2be125c5aeaf",
+        "code": null,
+        "ip": "10.39.72.139",
+        "remark": "門內",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "type": 2,
+        "id": "0ee6f0ae-beaf-482d-8c8c-e334621db073",
+        "code": null,
+        "ip": "10.39.72.140",
+        "remark": "門外",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "ipcam": [
+      {
+        "port": null,
+        "type": 1,
+        "topic": null,
+        "account": "root",
+        "password": "Abc123456",
+        "id": "c045ec45-ec82-4acc-bd85-fa36d0d42a58",
+        "code": null,
+        "ip": "192.168.72.116",
+        "remark": "遠",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": null,
+        "type": 2,
+        "topic": null,
+        "account": "root",
+        "password": "Abc123456",
+        "id": "797a4e08-84e1-4158-9464-7e1d80688ce4",
+        "code": null,
+        "ip": "192.168.150.154",
+        "remark": "近",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": null,
+        "type": 3,
+        "topic": null,
+        "account": "Admin",
+        "password": "1234",
+        "id": "0d78c34b-48ef-4a59-92e3-0b02538854b8",
+        "code": null,
+        "ip": "192.168.72.138",
+        "remark": "櫃",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "escale": {
+      "comPort": "COM5",
+      "topic": null,
+      "id": "45f20cc9-4dd6-4493-b660-77aed6f1fbc0",
+      "code": null,
+      "ip": "192.168.150.154",
+      "remark": "ComPort根據現場插的USB孔調整，ApiPort為固定值",
+      "stationId": "00000000-0000-0000-0000-000000000000"
+    },
+    "mqtt": {
+      "port": null,
+      "id": "36cb8d9f-c593-4d1d-a109-e316cdea36c8",
+      "code": null,
+      "ip": "192.168.72.137",
+      "remark": "工腦(智櫃PC)",
+      "stationId": "00000000-0000-0000-0000-000000000000"
+    },
+    "alarm": [
+      {
+        "port": null,
+        "type": 2,
+        "id": "6a180936-b2fc-4940-8f9e-dd860118b5a2",
+        "code": null,
+        "ip": "192.168.72.110",
+        "remark": "值日室",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "port": null,
+        "type": 1,
+        "id": "be2b0373-b38d-4875-a858-c772251bcd35",
+        "code": null,
+        "ip": "192.168.72.111",
+        "remark": "庫房",
+        "stationId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "isValid": true,
+    "version": 2,
+    "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI5ODJkNDQ4Mi1kNzFiLTRmM2QtOGMxZi0zODZkZDExMGI3YzkiLCJ1bmlxdWVfbmFtZSI6Ijc1MTAiLCJlbWFpbCI6IiIsImp0aSI6IjAxNzBjNjU1LWNhMDMtNDNiMi1hOGVkLTk1OTcxZjRjZjYzYSIsImlhdCI6MTY2MDA5NzE5OSwibmJmIjoxNjYwMDk3MTk5LCJleHAiOjE2NjAwOTgwOTksImlzcyI6ImlOZXQiLCJhdWQiOiJpTmV0IFJFU1RmdWwgQVBJIn0.ruquByUjSv4tmq2Eq8TmQwrWWUVY3LouHpDCT0Gjz24"
+  }
+}

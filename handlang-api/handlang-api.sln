@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "handlang-restApi", "handlang-restApi\handlang-restApi.csproj", "{FE97098F-FF34-489F-8D82-F1586D898C37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D16AD93-8939-4C30-A381-0D6978680E13} = {5D16AD93-8939-4C30-A381-0D6978680E13}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "handlang.service", "handlang.service\handlang.service.csproj", "{5D16AD93-8939-4C30-A381-0D6978680E13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE97098F-FF34-489F-8D82-F1586D898C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE97098F-FF34-489F-8D82-F1586D898C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE97098F-FF34-489F-8D82-F1586D898C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE97098F-FF34-489F-8D82-F1586D898C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D16AD93-8939-4C30-A381-0D6978680E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D16AD93-8939-4C30-A381-0D6978680E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D16AD93-8939-4C30-A381-0D6978680E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D16AD93-8939-4C30-A381-0D6978680E13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D53B4BA-C916-432C-A398-AD38ECCB7A56}
+	EndGlobalSection
+EndGlobal

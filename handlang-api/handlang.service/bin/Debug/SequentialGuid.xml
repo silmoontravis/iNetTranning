@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SequentialGuid</name>
+    </assembly>
+    <members>
+        <member name="T:SequentialGuid.SequentialGuidExtensions">
+            <summary>
+                Provides extension methods to return back timestamps from a guid as well as convert to &amp; from normal sorting
+                and SQL Server sorting
+            </summary>
+        </member>
+        <member name="M:SequentialGuid.SequentialGuidExtensions.#cctor">
+            <summary>
+                Constructor initializes the guid sequence mappings
+            </summary>
+        </member>
+        <member name="M:SequentialGuid.SequentialGuidExtensions.ToDateTime(System.Guid)">
+            <summary>
+                Will return the value of DateTime.UtcNow at the time of the generation of the Guid will keep you from storing
+                separate audit fields
+            </summary>
+            <param name="guid">A sequential Guid with the first 8 bytes containing the system ticks at time of generation</param>
+            <returns>DateTime?</returns>
+        </member>
+        <member name="M:SequentialGuid.SequentialGuidExtensions.ToDateTime(System.Data.SqlTypes.SqlGuid)">
+            <summary>
+                Will return the value of DateTime.UtcNow at the time of the generation of the Guid will keep you from storing
+                separate audit fields
+            </summary>
+            <param name="sqlGuid">
+                A sequential SqlGuid with the first sorted 8 bytes containing the system ticks at time of
+                generation
+            </param>
+            <returns>DateTime?</returns>
+        </member>
+        <member name="M:SequentialGuid.SequentialGuidExtensions.ToGuid(System.Data.SqlTypes.SqlGuid)">
+            <summary>
+                Will take a SqlGuid and re-sequence to a Guid that will sort in the same order
+            </summary>
+            <param name="sqlGuid">Any SqlGuid</param>
+            <returns>Guid</returns>
+        </member>
+        <member name="M:SequentialGuid.SequentialGuidExtensions.ToSqlGuid(System.Guid)">
+            <summary>
+                Will take a Guid and will re-sequence it so that it will sort properly in SQL Server without fragmenting your
+                tables
+            </summary>
+            <param name="guid">Any Guid</param>
+            <returns>SqlGuid</returns>
+        </member>
+        <member name="T:SequentialGuid.SequentialGuidGenerator">
+            <inheritdoc />
+        </member>
+        <member name="T:SequentialGuid.SequentialGuidGeneratorBase`1">
+            <summary>
+                Base class that provides sequential guid generation capabilities based on the MongoDB object id specification
+            </summary>
+            <typeparam name="T">Child class</typeparam>
+        </member>
+        <member name="M:SequentialGuid.SequentialGuidGeneratorBase`1.#ctor">
+            <summary>
+                Protected constructor that seeds the necessary values from the machine name hash &amp; process id as well as seed
+                the increment
+            </summary>
+        </member>
+        <member name="P:SequentialGuid.SequentialGuidGeneratorBase`1.Instance">
+            <summary>
+                Singleton instance of the generator
+            </summary>
+        </member>
+        <member name="M:SequentialGuid.SequentialGuidGeneratorBase`1.NewGuid">
+            <summary>
+                Returns a guid for the value of UtcNow
+            </summary>
+            <returns>Sequential guid</returns>
+        </member>
+        <member name="M:SequentialGuid.SequentialGuidGeneratorBase`1.NewGuid(System.DateTime)">
+            <summary>
+                Takes a date time parameter to encode in a sequential guid
+            </summary>
+            <param name="timestamp">
+                Timestamp that must not be in unspecified kind and must be between the unix epoch and now to be
+                considered valid
+            </param>
+            <returns>Sequential guid</returns>
+        </member>
+        <member name="M:SequentialGuid.SequentialGuidGeneratorBase`1.NewGuid(System.Int64)">
+            <summary>
+                Implementation that increments the counter and shreds the timestamp &amp; increment and constructs the guid
+            </summary>
+            <param name="timestamp">Timestamp in terms of Ticks</param>
+            <returns></returns>
+        </member>
+        <member name="T:SequentialGuid.SequentialSqlGuidGenerator">
+            <summary>
+                <para>Generate guid values that will sort sequentially over time in a SQL Server index</para>
+                <para>Supports SQL Server endianness</para>
+            </summary>
+        </member>
+        <member name="M:SequentialGuid.SequentialSqlGuidGenerator.NewSqlGuid">
+            <summary>
+                Returns a guid for the value of UtcNow
+            </summary>
+            <returns>Sequential SQL guid</returns>
+        </member>
+        <member name="M:SequentialGuid.SequentialSqlGuidGenerator.NewSqlGuid(System.DateTime)">
+            <summary>
+                Takes a date time parameter to encode in a sequential SQL guid
+            </summary>
+            <param name="timestamp">
+                Timestamp that must not be in unspecified kind and must be between the unix epoch and now to be
+                considered valid
+            </param>
+            <returns>Sequential SQL guid</returns>
+        </member>
+    </members>
+</doc>
